@@ -1,10 +1,18 @@
 import React from "react";
+import Learn from "./components/Learn/Learn";
+
 import Navbar from "./components/Navbar";
+
 function App() {
     return(
-        <div>
+        <>
+        {/* <div>
         <Navbar/>
+        </div> */}
+        <div>
+        <Learn/>
         </div>
+        </>
     )
  
 }
