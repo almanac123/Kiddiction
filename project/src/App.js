@@ -1,5 +1,7 @@
 import React from "react";
 import Learn from "./components/Learn/Learn";
+import Game from  "./components/game/index.html";
+
 
 import Navbar from "./components/Navbar";
 
@@ -11,9 +13,11 @@ function App() {
         </div> */}
         <div>
         <Learn/>
+        <Game/>
         </div>
         </>
     )
+
  
 }
 
